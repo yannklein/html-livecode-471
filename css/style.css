@@ -1,6 +1,8 @@
 /* --- Google Fonts --- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
 @import url("components/card.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
 
 /* --- Fonts --- */
 body {

@@ -1,0 +1,40 @@
+.cards {
+  display: flex;
+}
+
+.card-container {
+  width: 400px;
+  margin: 16px;
+}
+.card-white {
+  background-color: white;
+  padding: 16px;
+  text-align: right;
+}
+.card-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-image a {
+  opacity: 0;
+  transition: 1s;
+}
+
+.card-white:hover .card-image a {
+  opacity: 1;
+}
+
+.card-user {
+  padding-top: 16px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+.card-user a {
+  margin-left: 16px;
+}
+
